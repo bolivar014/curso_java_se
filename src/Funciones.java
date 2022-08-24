@@ -18,9 +18,15 @@ public class Funciones {
     }
 
     public static double sphereVolume(double y) {
-        return ((4/3) * Math.PI * Math.pow(y, 2));
+        return ((4 / 3) * Math.PI * Math.pow(y, 2));
     }
 
+    /**
+     * Descripción: función que especificando su moneda, convierte una cantidad de dinero a USD
+     * @param quantity: TOTAL DINERO
+     * @param currency: TIPO DE MONEDA
+     * @return retorna la conversión
+     */
     public static double convertToDolar(double quantity, String currency) {
         switch (currency) {
             case "MXN":
